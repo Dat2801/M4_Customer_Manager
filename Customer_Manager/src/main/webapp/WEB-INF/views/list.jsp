@@ -15,10 +15,10 @@
     </tr>
     <c:forEach items="${customerList}" var="list">
         <tr>
-            <td>${list.getId()}</td>
-            <td>${list.getName()}</td>
-            <td>${list.getEmail()}</td>
-            <td>${list.getAddress()}</td>
+            <td>${list.id}</td>
+            <td>${list.name}</td>
+            <td>${list.email}</td>
+            <td>${list.address}</td>
         </tr>
     </c:forEach>
 </table>

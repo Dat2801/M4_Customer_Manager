@@ -1,10 +1,14 @@
-config/Appinnit.java
- config.Appinnit
+service/customer/CustomerService.java
+ service.customer.CustomerService
 model/Customer.java
  model.Customer
 config/AppConfiguration.java
  config.AppConfiguration
-service/CustomerService.java
- service.CustomerService
+config/Appinnit.java
+ config.Appinnit
+service/customer/ICustomerService.java
+ service.customer.ICustomerService
+service/IService.java
+ service.IService
 controller/CustomerController.java
  controller.CustomerController
